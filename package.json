@@ -1,0 +1,7 @@
+{
+    "name": "tdd-ts-nodejs-boilerplate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "fparol4 <fparol4@gmail.com>",
+    "license": "MIT"
+}
