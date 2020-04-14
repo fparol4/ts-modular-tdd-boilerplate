@@ -29,5 +29,8 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
   }
 }
