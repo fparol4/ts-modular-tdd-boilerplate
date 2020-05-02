@@ -11,7 +11,7 @@
     "resolveJsonModule": true,
     "baseUrl": "src",
     "paths": {
-      "@core/*": ["app/core/*"],
+      "@core/*": ["core/*"],
       "@configs/*": ["configurations/*"],
       "@interfaces/*": ["interfaces/*"]
     }
