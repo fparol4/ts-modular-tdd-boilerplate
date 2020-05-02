@@ -8,7 +8,11 @@
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "paths": {
+      "@core/*": ["app/core/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules", "enviroments"]
