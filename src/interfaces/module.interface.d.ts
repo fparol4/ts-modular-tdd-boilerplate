@@ -1,7 +1,10 @@
 import { Router } from 'express'
 import { ControllerInterface } from '@interfaces/index'
 
-export default interface ModuleInterface {
+export interface ModuleInterface {
   router: Router,
-  controller: ControllerInterface
+  modules: Array<ModuleInterface>[]
+  controller?: ControllerInterface
+  service?: any // @TODO: ServiceInterface
+  model?: any // @TODO: ModelInterface
 }
