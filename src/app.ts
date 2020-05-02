@@ -1,14 +1,14 @@
-import './configurations/enviroment.config'
+import '@configs/enviroment.config'
 import Express, { Application } from 'express'
+import AppModule from './app'
 
 class App {
   public app: Application
 
   constructor () {
     this.app = Express()
+    this.module = new AppModule()
   }
-
-  load (): void {}
 }
 
 export default App
