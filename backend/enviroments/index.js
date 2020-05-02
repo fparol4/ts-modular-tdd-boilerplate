@@ -3,9 +3,9 @@ import Path from 'path'
 
 class Enviroment {
   static enviroments = {
-    dev: './development.env',
-    prod: './production.env',
-    test: './production.env',
+    dev: './.env.development',
+    prod: './.env.production',
+    test: './.env.test',
   }
 
   static getEnvPath(nodeEnv) {
