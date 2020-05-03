@@ -3,11 +3,9 @@ import { ModuleInterface } from '@interfaces/index'
 import { Router } from 'express'
 
 class AppModule implements ModuleInterface {
-  public router: Router
   public modules: Array<ModuleInterface>[]
 
   constructor () {
-    this.router =
     this.modules = []
   }
 }

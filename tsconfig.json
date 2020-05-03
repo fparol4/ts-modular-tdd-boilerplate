@@ -12,6 +12,7 @@
     "baseUrl": "src",
     "paths": {
       "@core/*": ["core/*"],
+      "@app": ["app.ts"],
       "@configs/*": ["configurations/*"],
       "@interfaces/*": ["interfaces/*"]
     }
